@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: RAW_CUSTOMER
+    columns:
+      - name: SEGMENT
+        tests:
+          - accepted_values:
+              values:
+                - 'Consumer'
+                - 'Home Office'
+                - 'Corporate'

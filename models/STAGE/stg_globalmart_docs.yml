@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: stg_orders
+    description: Its combined all the 3 tables
+    columns:
+      - name: order_id
+        description: It is a primary key
+      - name: ship_mode
+        description: '{{ doc("ship_mode") }}'
